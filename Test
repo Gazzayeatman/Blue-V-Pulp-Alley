@@ -1,0 +1,7 @@
+def test(*args):
+    hun = args[0]
+    babes = args[1]
+    print(hun + " " + babes)
+    print(args.__len__())
+
+test("Argument One","Argument Two","Argument Three")
